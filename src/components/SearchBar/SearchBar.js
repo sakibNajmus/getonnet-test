@@ -7,13 +7,12 @@ const SearchBar = () => {
     return (
         <section className="search-bar mt-5 mb-3">
             <div className="row">
-                <div className="col-md-10 text-center">
-                    <button type="button" style={{backgroundColor: '#EFF0F6', borderRadius: '10px'}} class="btn form-control" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <p className="d-flex justify-content-start"><span className="mr-3"><FontAwesomeIcon icon={faSearch} /></span>Ca</p>                     
-                    </button>
+                <div className="col-md-10">
+                    <input style={{backgroundColor: '#EFF0F6', borderRadius: '10px', color: '#111'}} class="search-box form-control"   type="text" placeholder="Ca" name="" id=""/>
+                    <p className="d-flex search-icon justify-content-start"><span className="mr-3"><FontAwesomeIcon icon={faSearch} /></span></p>
                 </div>
-                <div className="col-md-2 offset text-center">
-                    <button type="button" style={{backgroundColor: '#EFF0F6', borderRadius: '10px'}} class="btn form-control" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div className="col-md-2">
+                    <button type="button" style={{backgroundColor: '#EFF0F6', borderRadius: '10px'}} class="btn form-control" >
                         <p><FontAwesomeIcon icon={faSlidersH} /></p>                     
                     </button>
                 </div>

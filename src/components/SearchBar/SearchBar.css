@@ -3,5 +3,16 @@
     background-color: rgb(255, 255, 255);
     padding: 28px 30px;
     border-radius: 25px;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.search-box{
+    position: relative;
+    padding-left: 30px;
+}
+
+.search-icon{
+    position: absolute;
+    top: 6px;
+    left: 25px;
 }
