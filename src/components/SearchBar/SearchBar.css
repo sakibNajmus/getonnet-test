@@ -1,7 +1,7 @@
-.switch{
+.search-bar{
     border: none;
     background-color: rgb(255, 255, 255);
-    padding: 28px 50px;
+    padding: 28px 30px;
     border-radius: 25px;
     text-align: center;
 }

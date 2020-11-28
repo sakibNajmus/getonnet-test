@@ -5,6 +5,12 @@ import Header from '../Header/Header';
 import SummerSale from '../SummerSale/SummerSale';
 import Mail from '../Mail/Mail';
 import SwitchCard from '../SwitchCard/SwitchCard';
+import DropdownCard from '../DropdownCard/DropdownCard';
+import SearchBar from '../SearchBar/SearchBar';
+import Watch from '../Watch/Watch';
+import SignUp from '../SignUp/SignUp';
+import PeopleAvatar from '../PeopleAvatar/PeopleAvatar';
+import ProductCard from '../ProductCard/ProductCard';
 
 const Home = () => {
     return (
@@ -27,6 +33,40 @@ const Home = () => {
                     </div>
                     <div className="col-md-4 offset-md-1">
                         <SwitchCard></SwitchCard>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-3">
+                        <DropdownCard></DropdownCard>
+                    </div>
+                    <div className="col-md-8 offset-md-1">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <SearchBar></SearchBar>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6">
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <Watch></Watch>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <SignUp></SignUp>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <PeopleAvatar></PeopleAvatar>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <ProductCard></ProductCard>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

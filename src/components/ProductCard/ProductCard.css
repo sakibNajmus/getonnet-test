@@ -1,0 +1,12 @@
+.product-card{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    /* padding: 28px 30px; */
+    border-radius: 25px;
+}
+
+.btn-category{
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
