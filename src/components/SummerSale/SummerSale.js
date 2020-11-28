@@ -9,7 +9,7 @@ const SummerSale = () => {
                 <div className="col-md-4">
                     <h3>Summer Sale</h3>
                     <p className="my-4">25% Off Now through sunday for all in-store purchases.</p>
-                    <button className="btn-second mb-3">Shop Now</button>
+                    <button style={{borderRadius: '30px'}} className="btn-second mb-3">Shop Now</button>
                 </div>
                 <div className="col-md-6 offset-md-1">
                     <img style={{width: "97%"}} className="img-fluid" src={olive} alt=""/>

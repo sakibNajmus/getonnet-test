@@ -20,8 +20,9 @@ const Login = () => {
     return (
         <div className="login mb-3">
             <h3 style={{color: 'black'}} className="text-left">Login</h3>
-            <div className="pass-wrapper mt-3">
+            <div className="pass-wrapper mt-3"style={{border: 'none', borderRadius: '10px', backgroundColor: '#EFF0F6'}}>
                 <input
+                style={{border: 'none'}}
                 className="py-4 form-control"
                 name="email"
                 type="email"
@@ -32,6 +33,7 @@ const Login = () => {
             </div>
             <div className="pass-wrapper my-3">
                 <input
+                style={{border: 'none'}}
                 className="py-4 form-control"
                 placeholder="Password"
                 name="password"

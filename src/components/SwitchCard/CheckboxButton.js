@@ -14,11 +14,7 @@ const CheckboxButton = () => {
                 />
             </div>
 
-            <div className="col-md-4">
-
-            </div>
-
-            <div className="col-md-4">
+            <div className="col-md-4 offset-md-2">
                 <Checkbox
                 icon={<CircleUnchecked />}
                 checkedIcon={<CircleCheckedFilled />}

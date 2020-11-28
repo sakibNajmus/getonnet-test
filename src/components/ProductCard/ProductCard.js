@@ -21,7 +21,7 @@ const ProductCard = () => {
     return (
         <section className="product-card mt-5 mb-3">
             <img class="card-img-top" style={{borderRadius: '25px 25px 0 0'}} src={icecream} alt="Card image cap"/>
-            <div class="card-body mb-5">
+            <div class="card-body mb-1 pb-5">
                 <h3 style={{fontWeight: '700'}} class="card-title">Waffle Cone</h3>
                 <p class="card-text">12-Pack Box</p>
             </div>

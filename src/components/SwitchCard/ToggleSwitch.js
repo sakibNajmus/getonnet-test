@@ -73,8 +73,7 @@ const ToggleSwitch = () => {
                   control={<IOSSwitch checked={state.checkedA} onChange={handleChange} name="checkedA" />}
               />
             </div>
-            <div className="col-md-4"></div>
-            <div className="col-md-4">              
+            <div className="col-md-4 offset-md-2">              
               <FormControlLabel
                   control={<IOSSwitch checked={state.checkedB} onChange={handleChange} name="checkedB" />}
               />
